@@ -1,0 +1,64 @@
+{
+  "name": "koala-nunjucks",
+  "display": "Nunjucks",
+  "description": "Koala extension to compile nunjucks (former: njk) files.",
+  "keywords": [
+    "koala",
+    "compiler",
+    "nunjucks"
+  ],
+  "version": "1.0.0",
+  "koalaVersion": ">=2.0.0",
+  "main": "nunjucksCompiler.js",
+  "bugs": {
+    "url": "https://github.com/am1996/koala-nunjucks/issues"
+  },
+  "author": {
+    "name": "Ahmed Magdy",
+    "web": "https://github.com/am1996"
+  },
+  "contributors": [],
+  "maintainers": [
+    {
+      "name": "Ahmed",
+      "project": "https://github.com/am1996/koala-nunjucks"
+    }
+  ],
+  "dependencies": {
+    "htmlmin": "0.0.7",
+    "nunjucks": "^3.0.1",
+    "pretty": "^2.0.0"
+  },
+  "engines": {
+    "koala": ">=2.0.0"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oklai/koala.git"
+  },
+  "fileTypes": [
+    {
+      "extension": "njk",
+      "output": "html",
+      "icon": "nunjucks.png",
+      "category": "template"
+    }
+  ],
+  "options": [
+    {
+      "type": "checkbox",
+      "name": "prettyHtml",
+      "display": "Format HTML with whitespace",
+      "default": false
+    }
+  ],
+  "libraries": [
+    "nunjucks@3.0.1"
+  ]
+}
